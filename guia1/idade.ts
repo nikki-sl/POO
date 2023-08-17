@@ -1,8 +1,18 @@
-/* crie uma variável nome do tipo string e atribua a ela o valor "João";
+/* Comando da questão:
+crie uma variável nome do tipo string e atribua a ela o valor "João";
 crie uma variável idade do tipo number e atribua a ela o valor 18;
 crie uma constante limite do tipo number e atribua a ela o valor 18;
 crie uma variável maiorDeIdade do tipo boolean e atribua a ela o valor false;
-faça um if que verifica se idade é maior ou igual a limite e mude o valor de maiorDeIdade para true se for maior ou igual; */
+faça um if que verifica se idade é maior ou igual a limite e mude o valor de maiorDeIdade para true se for maior ou igual; 
+
+    Relatório:
+O que foi feito?
+
+Quanto tempo levei para fazer?
+
+O que aprendi?
+
+*/
 
 let nome: string = "João";
 let idade: number = 18;
