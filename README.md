@@ -1,7 +1,7 @@
 # POO
 Atividades e respostas dos conteúdos
 
-![gatinho fofo e pequeno olhando o espelho](file:///C:/Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/cats.webp)
+![gatinho fofo e pequeno olhando o espelho](cats.webp)
 
 **Guia 1 - revisão de Fup**
 + [Resposta das perguntas](#)
