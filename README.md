@@ -1,7 +1,7 @@
 # POO
 Atividades e respostas dos conteúdos
 
-![gatinho fofo e pequeno olhando o espelho]((https://www.google.com/search?sca_esv=558122945&sxsrf=AB5stBi32gEOyLszpxjJL_SjLLDGOCKWOA:1692367501379&q=gatinhos+fofos&tbm=isch&source=lnms&sa=X&ved=2ahUKEwih4P6dsOaAAxWsGrkGHfx8AmQQ0pQJegQICxAB&biw=1536&bih=792&dpr=1.25#imgrc=962nLdz4Eqaf3M)https://www.google.com/search?sca_esv=558122945&sxsrf=AB5stBi32gEOyLszpxjJL_SjLLDGOCKWOA:1692367501379&q=gatinhos+fofos&tbm=isch&source=lnms&sa=X&ved=2ahUKEwih4P6dsOaAAxWsGrkGHfx8AmQQ0pQJegQICxAB&biw=1536&bih=792&dpr=1.25#imgrc=962nLdz4Eqaf3M)
+![gatinho fofo e pequeno olhando o espelho](https://2.bp.blogspot.com/-YUGodKRhVcI/Td0ZhvC3t0I/AAAAAAAAAJs/QSLBk7sKy2I/s1600/tumblr_lld0g4YtHn1qge12uo1_500.jpg)
 
 **Guia 1 - revisão de Fup**
 + [Resposta das perguntas](#)
