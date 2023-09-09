@@ -16,30 +16,38 @@
    - Ex: let a: string = "Olá";
 
 - O que é inferência de tipos?
-
+   - É quando mesmo sem colocarmos o tipo dele o typeScript já vai saber.
+   - Ex: let num = 7   
+   - Ele saberá que num é do tipo number
+  
 - Qual a diferença entre atribuição de tipo e inicialização de variável? Me dê um exemplo de variável inicializada e não inicializada.
+   - A inicialização de variável se concentra em atribuir um valor inicial a uma variável quando ela é criada, enquanto a atribuição de tipo se concentra em definir o tipo de dados que a variável pode armazenar.
+   - Ex: let num = number; 
+   - mais a frente ela receberá um valor e esse valor ficará no lugar do number
 
 - Qual valor possui uma variável não inicializada?
+  - undefind
 
 - Quais os três tipos de dados primitivos em TypeScript?
    - string, number e booleanos
 
 - Quais os três tipos de dados que representam "ausência de valor" em TypeScript? Quando usar cada um deles?
-   - undefind - valor não definido, quando não existe valor ou inicialização, quando não foi encontrado. Tipo e valor
-   - null - quando não tem um valor, escolha voluntária, dizemos que não tem ninguém. Tipo e valor
-   - void - quando não existe retorno, usado em funções
+   - undefind: valor não definido, quando não existe valor ou inicialização, quando não foi encontrado. Tipo e valor
+   - null: quando não tem um valor, escolha voluntária, dizemos que não tem ninguém. Tipo e valor
+   - void: quando não existe retorno, usado em funções
 
 - O que é o tipo any em TypeScript?
+  - é uma forma de desativar a verificação de tipos estáticos, a variável pode conter qualquer tipo de valor, permitindo que você atribua valores de qualquer tipo a ela sem gerar erros.
 
 
 - Crie uma variável que pode ser do tipo string ou number.
    - let objeto: number | string = "abaju"
 
 - Como você declara um array de números em TypeScript?
-   - let fruta: string[] = ["maçã", "banana", "laranja"]
+   - let num: number[] = [10, 20, 30];
 
 - Como converter de string para number em TypeScript?
-   - Utiliza parseInt() ou um + na frente para números inteiros e parseFloat() para números com vírgula
+   - Utiliza parseInt() ou um + na frente para números inteiros
 
 - Como converter de number para string em TypeScript?
    - Utilizando o método toString()
