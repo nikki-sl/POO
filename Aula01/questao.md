@@ -54,4 +54,4 @@
    - for: contagem explicita, sabe o final
     1. Passeia pelos valores
     2. Passeia pelas listas de elementos
-   - while - contagem implícita, tem um final mas não especifica quanto tempo vai demorar até chegar nele
+   - while: contagem implícita, tem um final mas não especifica quanto tempo vai demorar até chegar nele
