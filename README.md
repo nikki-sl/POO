@@ -8,6 +8,6 @@
 - Aula 01 - Revisão de FUP
   - [perguntas](Aula01/questao.md)
   - [prática](Aula01)
--  Aula 02 - Revisão do P5
-   - [perguntas](Aula02/perguntas.md)
-   - [prática]([aulas/p5-pratica.md](Aula02/aula02.txt))
+- Aula 02 - Revisão do P5
+  - [perguntas](Aula02/perguntas.md)
+  - [prática](aula02.txt)
