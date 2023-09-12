@@ -10,4 +10,4 @@
   - [prática](Aula01)
 - Aula 02 - Revisão do P5
   - [perguntas](Aula02/perguntas.md)
-  - [prática](aula02.txt)
+  - [prática](Aula02/aula02.txt)
