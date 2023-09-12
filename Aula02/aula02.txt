@@ -1,0 +1,77 @@
+class V2d {
+    x: number;
+    y: number;
+    constructor(x: number, y: number) {
+        this.x = x;
+        this.y = y;
+    }
+
+    dist(other: V2d): number {
+        return dist(this.x, this.y, other.x, other.y);
+    }
+
+    toString(): string {
+        return `${this.x}:${this.y}`
+    }
+}
+
+class Circulo {
+    centro: V2d;
+    raio: number;
+    constructor(x: number, y: number, r: number) {
+        this.centro = new V2d(x, y);
+        this.raio = r;
+    }
+    desenhar(): void {
+        circle(this.centro.x, this.centro.y, this.raio * 2);
+    }
+    contemPonto(ponto: V2d): boolean {
+        return this.centro.dist(ponto) < this.raio;
+    }
+    colideCirculo(other: Circulo): boolean {
+        return this.centro.dist(other.centro) < this.raio + other.raio;
+    }
+    colideLista(lista: Circulo[]): boolean {
+        for (let elem of lista) {
+            if (this !== elem && this.colideCirculo(elem))
+                return true;
+        }
+        return false;
+    }
+
+    toString(): string {
+        return `${this.centro.x}:${this.centro.y}:${this.raio}`
+    }
+}
+
+let vet: Circulo[] = [];
+let colorir: boolean = false;
+
+
+function setup() {
+    createCanvas(300, 600);
+    frameRate(10);
+}
+function draw() {
+    background(255);
+    for (let elem of vet) {
+        if (colorir)
+            fill(random(255), random(255), random(255))
+        elem.desenhar();
+    }
+    for (let elem of vet) {
+        if (elem.colideLista(vet))
+            elem.raio -= 1;
+        else
+            elem.raio += 1;
+    }
+}
+
+function keyPressed() {
+    if (key == "u") {
+        vet.push(new Circulo(mouseX, mouseY, 50));
+    }
+    if (key == "c") {
+        colorir = !colorir;
+    }
+}
