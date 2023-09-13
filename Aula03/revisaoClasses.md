@@ -37,4 +37,4 @@
   - No caso acredito que seja os números inteiros já que nesse caso o as [] servem como o new da forma normal
   
 - Como poderíamos criar o objeto da linha acima de forma direta usando new?
-  - const obj = new objeto();
+  - let x = new Array(1, 2, 3);
