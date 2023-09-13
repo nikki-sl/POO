@@ -12,5 +12,5 @@
   - [perguntas](Aula02/perguntas.md)
   - [prática](Aula02/aula02.txt)
 - Aula 03 - Revisão de classe
-  - [perguntas](Aula03/praticaclasse.ts)
-  - [prática](Aula03/revisaoClasses.md)
+  - [perguntas](Aula03/revisaoClasses.md)
+  - [prática](Aula03/praticaclasse.ts)
