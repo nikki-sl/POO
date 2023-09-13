@@ -11,3 +11,6 @@
 - Aula 02 - Revisão do P5
   - [perguntas](Aula02/perguntas.md)
   - [prática](Aula02/aula02.txt)
+- Aula 03 - Revisão de classe
+  - [perguntas](Aula03/praticaclasse.ts)
+  - [prática](Aula03/revisaoClasses.md)
