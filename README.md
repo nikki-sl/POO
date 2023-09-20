@@ -14,3 +14,6 @@
 - Aula 03 - Revisão de classe
   - [perguntas](Aula03/revisaoClasses.md)
   - [prática](Aula03/praticaclasse.ts)
+- Aula 04 - Revisão de array
+  - [perguntas](Aula04/revisao.md)
+  - [prática](Aula04)
