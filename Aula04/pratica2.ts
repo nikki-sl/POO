@@ -10,6 +10,6 @@ for (let i = 10; i < 21; i++) {
 
 for (let i = 0; i < vazio.length; i++ ) {
     vazio[i] = vazio[i] + 1;
-    console.log("[" + vazio.join(";") + "]");
+    console.log("[" + vazio.join("/n") + "]");
 }
 
