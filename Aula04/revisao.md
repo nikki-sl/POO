@@ -2,7 +2,7 @@
 
 - Qual as duas formas de criar um array, tanto usando `tipo[]` como usando `new Array<tipo>`? Qual a sintaxe para cada um deles?
   - const numeros: number[] = [1, 2, 3, 4, 5];
-  - const numeros: Array<number> = new Array<number>(1, 2, 3, 4, 5);
+  - const numeros: Array<number> = new Array<number>(1, 2, 3, 4, 5)
   
 - length é um método ou um atributo da classe Array?
   - É um atributo ou uma propriedade do objeto array.
@@ -39,7 +39,7 @@
 
 - Como seria um laço para percorrer o elemento de trás pra frente?
   - for (let i = nomes.length - 1; i >= 0; i--) {
-    console.log(nomes[i]); 
+    console.log(nomes[i])
     }
   
 - Se eu tiver um array de números e quiser dobrar o valor de cada elemento do array, por que eu não consigo fazer com o `for of`?
@@ -51,4 +51,4 @@
 - Se eu tenho uma lista de nomes chamada `nomes` como eu faço pra imprimir um nome por linha, mas sem utilizar o `for`, utilizando apenas a função `join` e o `console.log()`?
   - Tu usa o \n:  
     let test = numero.join("\n")
-    console.log(test);
+    console.log(test)
